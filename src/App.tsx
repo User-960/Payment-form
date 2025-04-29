@@ -1,11 +1,9 @@
-import './App.css'
+import '@/styles/styles.css'
 
-function App() {
+export function App() {
 	return (
 		<>
-			<h1>Hello World</h1>
+			<h1 className={'text-5xl font-bold text-orange-400 mx-auto'}>Hello World</h1>
 		</>
 	)
 }
-
-export default App
