@@ -1,9 +1,10 @@
 import '@/styles/styles.css'
+import { PaymentForm } from './components/ui/PaymentForm'
 
 export function App() {
 	return (
-		<>
-			<h1 className={'text-5xl font-bold text-orange-400 mx-auto'}>Hello World</h1>
-		</>
+		<div className={'container mx-auto'}>
+			<PaymentForm />
+		</div>
 	)
 }
