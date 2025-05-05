@@ -1,6 +1,5 @@
 @import 'tailwindcss';
-@import url('./vendor/reset.css');
-@import url('./variables/variables.scss');
+@import './variables/variables.css';
 
 :root {
 	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

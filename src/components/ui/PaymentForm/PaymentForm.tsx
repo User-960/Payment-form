@@ -4,7 +4,7 @@ export function PaymentForm() {
 			<section className={'mb-12'}>
 				<div className={'text-white mb-0.5'}>Your balance</div>
 				<div className={'flex items-center gap-2 mb-3.5'}>
-					<div className={'shadow-2xl bg-yellow-400 rounded-full w-6 h-6 flex items-center'}>
+					<div className={'shadow-2xl bg-yellow-400 rounded-full w-6 h-6 flex items-center justify-center'}>
 						<span className={'italic font-bold text-red-400'}>V</span>
 					</div>
 					<dvi className={'text-2xl font-bold'}>$2,461.49</dvi>
