@@ -1,11 +1,10 @@
-import './App.css'
+import '@/styles/styles.css'
+import { PaymentForm } from './components/ui/PaymentForm'
 
-function App() {
+export function App() {
 	return (
-		<>
-			<h1>Hello World</h1>
-		</>
+		<div className={'container mx-auto'}>
+			<PaymentForm />
+		</div>
 	)
 }
-
-export default App
